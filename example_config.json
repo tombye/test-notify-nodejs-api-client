@@ -1,0 +1,35 @@
+{
+  "email": "",
+  "local": {
+    "apiKey": "",
+    "apiRoot": "",
+    "smsTemplateId": "",
+    "emailTemplateId": "",
+    "sendAFileTemplateId": "",
+    "emailReplyToId": ""
+  },
+  "preview": {
+    "apiKey": "",
+    "apiRoot": "",
+    "smsTemplateId": "",
+    "emailTemplateId": "",
+    "sendAFileTemplateId": "",
+    "emailReplyToId": ""
+  },
+  "staging": {
+    "apiKey": "",
+    "apiRoot": "",
+    "smsTemplateId": "",
+    "emailTemplateId": "",
+    "sendAFileTemplateId": "",
+    "emailReplyToId": ""
+  },
+  "prodution": {
+    "apiKey": "",
+    "apiRoot": "",
+    "smsTemplateId": "",
+    "emailTemplateId": "",
+    "sendAFileTemplateId": "",
+    "emailReplyToId": ""
+  }
+}

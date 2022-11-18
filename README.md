@@ -11,6 +11,8 @@ Run this command to install:
 npm install
 ```
 
+Rename `example_config.json` as `config.json` and put values for the environments you need to use.
+
 Running the script:
 ```
 node index.js [environment]
