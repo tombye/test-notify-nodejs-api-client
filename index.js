@@ -18,12 +18,12 @@ function sendAFile (sendAFileTemplateId, emailAddress) {
 
     notifyClient.sendEmail(sendAFileTemplateId, emailAddress, {
       personalisation: {
-        link_to_document: notifyClient.prepareUpload(pdfFile)
+        link_to_file: notifyClient.prepareUpload(pdfFile, { confirmEmailBeforeDownload: true })
       }
     }).then(response => {
-      console.log(response.body);
+      console.log(response.data);
     }).catch(err => {
-      console.error('Error: ' + err.message);
+      console.error('Error: ' + err);
     });
   })
 };
@@ -73,7 +73,7 @@ function main () {
 
     // sendAnEmail(emailTemplateId, emailAddress, emailReplyToId);
     // sendAnSms (smsTemplateId, phoneNumber);
-    sendAFile(sendAFileTemplateId, emailAddress, emailReplyToId);
+    sendAFile(sendAFileTemplateId, emailAddress);
   });
 };
 
