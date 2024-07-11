@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "notifications-node-client": "^7.0.0"
+  "devDependencies": {
+    "notifications-node-client": "^8.2.0"
   }
 }
